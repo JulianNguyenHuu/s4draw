@@ -1,9 +1,187 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T09:25:05.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" version="21.7.4" etag="LYmUX_usv19P1IfwZOP2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-10T09:37:24.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="TXms7BuRqrpzLBEjePUI" version="21.7.4" type="github">
   <diagram name="Seite-1" id="hcgGkiM6yJz-ue7Ng7xV">
-    <mxGraphModel>
+    <mxGraphModel dx="2020" dy="1083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jqDBeNtWPC10L2WBPfru-1" value="System&amp;nbsp; (S/4, EWM, ...)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="90" width="200" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-5" value="Warenentnahme zur Produktion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-1">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-15" value="Wareneingang aus Produktion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-1">
+          <mxGeometry x="45" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-2" value="Realität" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="200" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-6" value="Fertigungsschritt 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-2">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jqDBeNtWPC10L2WBPfru-2" source="jqDBeNtWPC10L2WBPfru-7" target="jqDBeNtWPC10L2WBPfru-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-7" value="Fertigungsschritt 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-2">
+          <mxGeometry x="40" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-8" value="Fertigungsschritt 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-2">
+          <mxGeometry x="40" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jqDBeNtWPC10L2WBPfru-2" source="jqDBeNtWPC10L2WBPfru-6" target="jqDBeNtWPC10L2WBPfru-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-3" target="jqDBeNtWPC10L2WBPfru-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-4" value="&lt;div&gt;Fertigung ohne Fremdarbeit&lt;/div&gt;&lt;div&gt;(Fremdarbeit = unterwarteter, isolierter Prozessschritt&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="10" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-5" target="jqDBeNtWPC10L2WBPfru-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="500" as="sourcePoint" />
+            <mxPoint x="470" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-12" value="Fertigungsauftratt veranlasst Prozess" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-8" target="jqDBeNtWPC10L2WBPfru-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-17" value="Ende" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="515" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-15" target="jqDBeNtWPC10L2WBPfru-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="500" as="sourcePoint" />
+            <mxPoint x="470" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-19" value="S4" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="90" width="200" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-20" value="Warenentnahme zur Produktion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-19">
+          <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-21" value="Wareneingang aus Produktion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-19">
+          <mxGeometry x="45" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-45" value="Wareneingang aus Produktion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-19">
+          <mxGeometry x="45" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-22" value="Realität" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="90" width="200" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-23" value="Fertigungsschritt 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-22">
+          <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jqDBeNtWPC10L2WBPfru-22" source="jqDBeNtWPC10L2WBPfru-25" target="jqDBeNtWPC10L2WBPfru-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="jqDBeNtWPC10L2WBPfru-22" source="jqDBeNtWPC10L2WBPfru-25" target="jqDBeNtWPC10L2WBPfru-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="260" />
+              <mxPoint x="180" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-25" value="Fertigungsschritt 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-22">
+          <mxGeometry x="40" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-26" value="Fertigungsschritt 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-22">
+          <mxGeometry x="40" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="jqDBeNtWPC10L2WBPfru-22" source="jqDBeNtWPC10L2WBPfru-23" target="jqDBeNtWPC10L2WBPfru-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="410" as="sourcePoint" />
+            <mxPoint x="130" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-40" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.flash;fillColor=#f8cecc;strokeColor=#b85450;rotation=25;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-22">
+          <mxGeometry x="87.5" y="310" width="25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="jqDBeNtWPC10L2WBPfru-22" source="jqDBeNtWPC10L2WBPfru-42" target="jqDBeNtWPC10L2WBPfru-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-42" value="Versand zu Lohnbearbeiter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-22">
+          <mxGeometry x="40" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-43" value="Empfang von Lohnbearbeiter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-22">
+          <mxGeometry x="40" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jqDBeNtWPC10L2WBPfru-22" source="jqDBeNtWPC10L2WBPfru-44" target="jqDBeNtWPC10L2WBPfru-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-44" value="Fertigungsschritt 3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-22">
+          <mxGeometry x="40" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-29" target="jqDBeNtWPC10L2WBPfru-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-29" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="740" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-30" value="Fremdarbeit - Prozess Übersicht" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="10" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-20" target="jqDBeNtWPC10L2WBPfru-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="500" as="sourcePoint" />
+            <mxPoint x="1250" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-32" value="Fertigungsauftratt veranlasst Prozess" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-26" target="jqDBeNtWPC10L2WBPfru-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-34" value="Ende" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="740" y="585" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-21" target="jqDBeNtWPC10L2WBPfru-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="570" as="sourcePoint" />
+            <mxPoint x="1250" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-43" target="jqDBeNtWPC10L2WBPfru-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1220" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-52" value="Ende" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1050" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-45" target="jqDBeNtWPC10L2WBPfru-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
