@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T10:01:41.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="yelVj0724Ry1F2IMavDL" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-10T10:19:47.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="aq7vblav1w9QGaEfj9U8" version="21.7.4" type="github">
   <diagram name="Seite-1" id="hcgGkiM6yJz-ue7Ng7xV">
-    <mxGraphModel dx="5618" dy="3029" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3622" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,8 +138,8 @@
         <mxCell id="jqDBeNtWPC10L2WBPfru-29" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1160" y="140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jqDBeNtWPC10L2WBPfru-30" value="Fremdarbeit - Innerhalb von Deutschland" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="20" width="980" height="30" as="geometry" />
+        <mxCell id="jqDBeNtWPC10L2WBPfru-30" value="Fremdarbeit - Innerhalb von Deutschland / Grundszenario" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
+          <mxGeometry x="890" y="20" width="1360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jqDBeNtWPC10L2WBPfru-20" target="jqDBeNtWPC10L2WBPfru-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -541,6 +541,21 @@
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-169" value="INTRSTAT" style="shape=mxgraph.signs.travel.bank;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="3520" y="850" width="99" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-171" value="&lt;h1&gt;Aktive Veredelung&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Einfuhr von Nicht-Unionswaren zur Verarbeitung. Können:&lt;/p&gt;&lt;p&gt;- Wiederausgeführt werden&lt;/p&gt;&lt;p&gt;- Umgewandelt und in den freien Verkehr überführt werden&lt;/p&gt;&lt;p&gt;- in anderes Zollverfahren überführt werden (z.B. Lager)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="1180" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-172" value="&lt;h1&gt;Passive Veredelung&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Ausfuhr von Unionswaren zur Verarbeitung, Können:&lt;/div&gt;&lt;div&gt;- Wiedereingeführt werden&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="1430" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-173" value="&lt;h1&gt;Abweichung von Produktionsprozess&lt;br&gt;&lt;/h1&gt;Unerwartet kann ein Produktionsschritt nicht ausgeführt werden. Die Produktionsschritte sind nicht einzeln definiert so dass sich das Material nach Fertigungsschritt 2 im System unverändert registriert ist. In der Realität wurden jedoch bereits Verarbeitungsschritte durchgeführt. Um die Produktion fertigzustellen muss der fehlende Fertigungsschritt von einem Lohnarbeitsunternehmen ausgeführt werden." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="440" width="450" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-175" value="&lt;h1&gt;Abwicklung über Fremdarbeit&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Die Waren müssen nun:&lt;/div&gt;&lt;div&gt;- An das Lohnarbeitsunternehmen versendet werden&lt;/div&gt;&lt;div&gt;- Verarbeitet werden&lt;/div&gt;&lt;div&gt;- Empfangen werden&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="790" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-176" value="&lt;h1&gt;Abwicklung über Fremdarbeit&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Die Waren müssen nun:&lt;/div&gt;&lt;div&gt;- An das Lohnarbeitsunternehmen versendet werden&lt;/div&gt;&lt;div&gt;- Verarbeitet werden&lt;/div&gt;&lt;div&gt;- Empfangen werden&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1030" width="450" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
