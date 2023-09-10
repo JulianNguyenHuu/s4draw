@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T10:26:24.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="YIkSW-M7wILWL1WBGcVD" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-10T12:10:39.634Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="3ETk3mNQxym6_eiPo4T3" version="21.7.4" type="github">
   <diagram name="Seite-1" id="hcgGkiM6yJz-ue7Ng7xV">
-    <mxGraphModel dx="2860" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4773" dy="2701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,7 +207,7 @@
           <mxGeometry x="250" y="1005.5" width="60" height="69" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-76" value="S4" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2750" y="90" width="200" height="1130" as="geometry" />
+          <mxGeometry x="2888" y="90" width="200" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-77" value="Warenentnahme zur Produktion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-76">
           <mxGeometry x="40" y="60" width="120" height="60" as="geometry" />
@@ -219,7 +219,7 @@
           <mxGeometry x="45" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-80" value="Realität" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2950" y="90" width="200" height="1130" as="geometry" />
+          <mxGeometry x="3088" y="90" width="200" height="1130" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-81" value="Fertigungsschritt 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-80">
           <mxGeometry x="40" y="140" width="120" height="60" as="geometry" />
@@ -271,45 +271,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-94" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="2570" y="140" width="80" height="80" as="geometry" />
+          <mxGeometry x="2708" y="140" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-95" value="Fremdarbeit - Grenzüberschreitend, innerhalb EU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=50;" vertex="1" parent="1">
-          <mxGeometry x="2520" width="920" height="30" as="geometry" />
+          <mxGeometry x="2658" width="920" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="jqDBeNtWPC10L2WBPfru-77" target="jqDBeNtWPC10L2WBPfru-81" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3030" y="500" as="sourcePoint" />
-            <mxPoint x="3080" y="450" as="targetPoint" />
+            <mxPoint x="3168" y="500" as="sourcePoint" />
+            <mxPoint x="3218" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="3050" y="180" />
+              <mxPoint x="3188" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" source="jqDBeNtWPC10L2WBPfru-85" target="jqDBeNtWPC10L2WBPfru-78" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3050" y="625" />
+              <mxPoint x="3188" y="625" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-99" value="Ende" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2570" y="585" width="80" height="80" as="geometry" />
+          <mxGeometry x="2708" y="585" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-100" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" source="jqDBeNtWPC10L2WBPfru-78" target="jqDBeNtWPC10L2WBPfru-99" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3030" y="570" as="sourcePoint" />
-            <mxPoint x="3080" y="520" as="targetPoint" />
+            <mxPoint x="3168" y="570" as="sourcePoint" />
+            <mxPoint x="3218" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="jqDBeNtWPC10L2WBPfru-90" target="jqDBeNtWPC10L2WBPfru-79" parent="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3050" y="1090" />
+              <mxPoint x="3188" y="1090" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-102" value="Ende" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2570" y="1050" width="80" height="80" as="geometry" />
+          <mxGeometry x="2708" y="1050" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="jqDBeNtWPC10L2WBPfru-79" target="jqDBeNtWPC10L2WBPfru-102" parent="1">
           <mxGeometry relative="1" as="geometry" />
@@ -424,8 +424,8 @@
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-133" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2480" y="690" as="sourcePoint" />
-            <mxPoint x="3280" y="690" as="targetPoint" />
+            <mxPoint x="2618" y="690" as="sourcePoint" />
+            <mxPoint x="3418" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-134" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
@@ -435,7 +435,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-135" value="Fertigungsauftratt veranlasst Prozess" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2550" y="230" width="120" height="30" as="geometry" />
+          <mxGeometry x="2688" y="230" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-136" value="Fertigungsauftratt veranlasst Prozess" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4150" y="230" width="120" height="30" as="geometry" />
@@ -465,7 +465,7 @@
           <mxGeometry x="5200" y="885.5" width="60" height="69" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-145" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="3410" y="630" width="100" height="100" as="geometry" />
+          <mxGeometry x="3548" y="630" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-146" value="" style="shape=mxgraph.signs.people.man_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-145">
           <mxGeometry x="34.39999999999998" y="18.5" width="30" height="63" as="geometry" />
@@ -474,7 +474,7 @@
           <mxGeometry width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-148" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="3290" y="630" width="100" height="100" as="geometry" />
+          <mxGeometry x="3428" y="630" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-149" value="" style="html=1;shape=mxgraph.basic.isocube;isoAngle=15;fillColor=#000000;strokeColor=#FFFFFF;" vertex="1" parent="jqDBeNtWPC10L2WBPfru-148">
           <mxGeometry x="28.037383177570096" y="27.906976744186053" width="46.72897196261682" height="46.51162790697675" as="geometry" />
@@ -483,16 +483,16 @@
           <mxGeometry width="100.00000000000001" height="100.00000000000001" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-151" value="Warenprüfung" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3310" y="730" width="60" height="30" as="geometry" />
+          <mxGeometry x="3448" y="730" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-153" value="Grenze DE - EU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="660" width="120" height="30" as="geometry" />
+          <mxGeometry x="3298" y="660" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-154" value="INTRSTAT" style="shape=mxgraph.signs.travel.bank;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="1000" width="99" height="86" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-155" value="INTRSTAT" style="shape=mxgraph.signs.travel.bank;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="3520" y="637" width="99" height="86" as="geometry" />
+          <mxGeometry x="3658" y="637" width="99" height="86" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-156" value="Grenze EU - Drittland" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4780" y="660" width="120" height="30" as="geometry" />
@@ -532,12 +532,12 @@
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-167" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2480" y="910" as="sourcePoint" />
-            <mxPoint x="3280" y="910" as="targetPoint" />
+            <mxPoint x="2618" y="910" as="sourcePoint" />
+            <mxPoint x="3418" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-168" value="Grenze DE - EU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3160" y="880" width="120" height="30" as="geometry" />
+          <mxGeometry x="3298" y="880" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-171" value="&lt;h1&gt;Aktive Veredelung&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Einfuhr von Nicht-Unionswaren zur Verarbeitung. Können:&lt;/p&gt;&lt;p&gt;- Wiederausgeführt werden&lt;/p&gt;&lt;p&gt;- Umgewandelt und in den freien Verkehr überführt werden&lt;/p&gt;&lt;p&gt;- in anderes Zollverfahren überführt werden (z.B. Lager)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="1180" width="460" height="220" as="geometry" />
@@ -545,14 +545,44 @@
         <mxCell id="jqDBeNtWPC10L2WBPfru-172" value="&lt;h1&gt;Passive Veredelung&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Ausfuhr von Unionswaren zur Verarbeitung, Können:&lt;/div&gt;&lt;div&gt;- Wiedereingeführt werden&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="1430" width="460" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="jqDBeNtWPC10L2WBPfru-173" value="&lt;h1&gt;Abweichung von Produktionsprozess&lt;br&gt;&lt;/h1&gt;Unerwartet kann ein Produktionsschritt nicht ausgeführt werden. Die Produktionsschritte sind nicht einzeln definiert so dass sich das Material nach Fertigungsschritt 2 im System unverändert registriert ist. In der Realität wurden jedoch bereits Verarbeitungsschritte durchgeführt. Um die Produktion fertigzustellen muss der fehlende Fertigungsschritt von einem Lohnarbeitsunternehmen ausgeführt werden." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="440" width="450" height="220" as="geometry" />
+        <mxCell id="jqDBeNtWPC10L2WBPfru-173" value="&lt;h1&gt;Abweichung von Produktionsprozess&lt;br&gt;&lt;/h1&gt;Unerwartet kann ein Produktionsschritt nicht ausgeführt werden. Die Produktionsschritte sind nicht einzeln definiert, so dass sich das Material nach Fertigungsschritt 2 im System unverändert registriert ist. In der Realität wurden jedoch bereits Verarbeitungsschritte durchgeführt. Um die Produktion fertigzustellen muss der fehlende Fertigungsschritt von einem Lohnarbeitsunternehmen ausgeführt werden." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="440" width="450" height="220" as="geometry" />
         </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-175" value="&lt;h1&gt;Abwicklung über Fremdarbeit&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Die Waren müssen nun:&lt;/div&gt;&lt;div&gt;- An das Lohnarbeitsunternehmen versendet werden&lt;/div&gt;&lt;div&gt;- Verarbeitet werden&lt;/div&gt;&lt;div&gt;- Empfangen werden&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="790" width="450" height="120" as="geometry" />
+          <mxGeometry x="1750" y="790" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="jqDBeNtWPC10L2WBPfru-176" value="&lt;h1&gt;Fertigstellung der Produktion&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Sofern es sich um den letzten Fertigungsschritt gehandelt hat, würde dann das fertige Material mit fertiger Materialnummer empfangen werden und aus dem Fertigungsauftrag in den entsprechenden Bestand gebucht werden.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In der Realität würde sich hier jedoch ein Wareneingang von extern abspielen. &lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1750" y="1030" width="450" height="120" as="geometry" />
+        <mxCell id="jqDBeNtWPC10L2WBPfru-176" value="&lt;h1&gt;Fertigstellung der Produktion&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Sofern es sich um den letzten Fertigungsschritt gehandelt hat, würde dann das fertige Material mit Materialnummer&amp;nbsp; des gefertigten Materials empfangen werden und aus dem Fertigungsauftrag in den entsprechenden Bestand gebucht werden.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In der Realität würde sich hier jedoch ein Wareneingang von extern abspielen. &lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1030" width="450" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-179" value="&lt;h1&gt;Innerhalb der EU&lt;/h1&gt;&lt;div&gt;Versand:&lt;br&gt;&lt;/div&gt;&lt;p&gt;Es müsste grundsätzlich eine Sanktionslisten-/Embargoprüfung stattfinden. Die Warenbewegung ist ein- als auch ausgehend an das statistische Bundesamt zu melden, entsprechende Gesetzliche Grundlagen für den innergemeinschaftlichen Versand müssten beachtet werden.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Empfang: Die Warenbewegung muss uU an das Statistische Bundesamt gemeldet werden.&amp;nbsp; &lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3428" y="780" width="400" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-181" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="2150" as="sourcePoint" />
+            <mxPoint x="820" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-182" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2490" y="2150" as="sourcePoint" />
+            <mxPoint x="2480" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-183" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=6;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4110" y="2150" as="sourcePoint" />
+            <mxPoint x="4100" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-184" value="&lt;h1&gt;Abhängigkeiten&lt;/h1&gt;&lt;p&gt;- Country of Origin: Sofern Waren abweichenden Ursprungs verwendet werden &lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Veredelung: Sofern sich das Material im Verfahren der Aktiven Veredelung befindet, muss beachtet werden dass sich der Prozess unter zollamtlicher Überwachung befindet. Die Produktion ist somit ortsgebunden. Auch Zwischenerzeugnisse und Ausbeute sind erst in den freien Verkehr oder ein anderes geeignetes Verfahren zu überführen. &lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1400" width="990" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-185" value="&lt;h1&gt;Abhängigkeiten&lt;/h1&gt;&lt;p&gt;- Country of Origin: Sofern Waren abweichenden Ursprungs verwendet werden &lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Veredelung: Sofern sich das Material im Verfahren der Aktiven Veredelung befindet, muss beachtet werden dass sich der Prozess unter zollamtlicher Überwachung befindet. Die Produktion ist somit ortsgebunden. Auch Zwischenerzeugnisse und Ausbeute sind erst in den freien Verkehr oder ein anderes geeignetes Verfahren zu überführen. &lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="1400" width="990" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="jqDBeNtWPC10L2WBPfru-186" value="&lt;h1&gt;Abhängigkeiten&lt;/h1&gt;&lt;p&gt;- Country of Origin: Sofern Waren abweichenden Ursprungs verwendet werden &lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- Veredelung: Sofern sich das Material im Verfahren der Aktiven Veredelung befindet, muss beachtet werden dass sich der Prozess unter zollamtlicher Überwachung befindet. Die Produktion ist somit ortsgebunden. Auch Zwischenerzeugnisse und Ausbeute sind erst in den freien Verkehr oder ein anderes geeignetes Verfahren zu überführen. &lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4280" y="1400" width="990" height="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
