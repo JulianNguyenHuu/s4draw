@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-10T10:19:47.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="aq7vblav1w9QGaEfj9U8" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-10T10:26:24.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="YIkSW-M7wILWL1WBGcVD" version="21.7.4" type="github">
   <diagram name="Seite-1" id="hcgGkiM6yJz-ue7Ng7xV">
-    <mxGraphModel dx="3622" dy="2254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2860" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -539,9 +539,6 @@
         <mxCell id="jqDBeNtWPC10L2WBPfru-168" value="Grenze DE - EU" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3160" y="880" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jqDBeNtWPC10L2WBPfru-169" value="INTRSTAT" style="shape=mxgraph.signs.travel.bank;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="3520" y="850" width="99" height="86" as="geometry" />
-        </mxCell>
         <mxCell id="jqDBeNtWPC10L2WBPfru-171" value="&lt;h1&gt;Aktive Veredelung&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Einfuhr von Nicht-Unionswaren zur Verarbeitung. Können:&lt;/p&gt;&lt;p&gt;- Wiederausgeführt werden&lt;/p&gt;&lt;p&gt;- Umgewandelt und in den freien Verkehr überführt werden&lt;/p&gt;&lt;p&gt;- in anderes Zollverfahren überführt werden (z.B. Lager)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="1180" width="460" height="220" as="geometry" />
         </mxCell>
@@ -554,7 +551,7 @@
         <mxCell id="jqDBeNtWPC10L2WBPfru-175" value="&lt;h1&gt;Abwicklung über Fremdarbeit&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Die Waren müssen nun:&lt;/div&gt;&lt;div&gt;- An das Lohnarbeitsunternehmen versendet werden&lt;/div&gt;&lt;div&gt;- Verarbeitet werden&lt;/div&gt;&lt;div&gt;- Empfangen werden&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1760" y="790" width="450" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="jqDBeNtWPC10L2WBPfru-176" value="&lt;h1&gt;Abwicklung über Fremdarbeit&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Die Waren müssen nun:&lt;/div&gt;&lt;div&gt;- An das Lohnarbeitsunternehmen versendet werden&lt;/div&gt;&lt;div&gt;- Verarbeitet werden&lt;/div&gt;&lt;div&gt;- Empfangen werden&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="jqDBeNtWPC10L2WBPfru-176" value="&lt;h1&gt;Fertigstellung der Produktion&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Sofern es sich um den letzten Fertigungsschritt gehandelt hat, würde dann das fertige Material mit fertiger Materialnummer empfangen werden und aus dem Fertigungsauftrag in den entsprechenden Bestand gebucht werden.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;In der Realität würde sich hier jedoch ein Wareneingang von extern abspielen. &lt;br&gt; &lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1750" y="1030" width="450" height="120" as="geometry" />
         </mxCell>
       </root>
